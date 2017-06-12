@@ -46,7 +46,8 @@ body {font-family: 'Roboto', sans-serif; background: #fff;}
     list-style-type: none;
     width: 300px;
     overflow-y: scrollxxx;
-    padding: 229px 0 60px 0;
+    padding: 0px 0 60px 0;
+    padding-top: 12%;
     position: fixed;
     top: 0;
     left: 0;
