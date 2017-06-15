@@ -91,7 +91,10 @@ body {font-family: 'Roboto', sans-serif; background: #fff;}
 .lp13 { background: #ecc676; }
 
 
-
+h1 {color: #515b73;
+    font-size: 64px;
+    font-weight: 600;
+    letter-spacing: 1px; padding-top: 130px;}
 h4 {color: #515b73;  font-size: 19px; font-weight: 400; margin-top: 14px;}
 .boje-box p {color: #bdc4d1;  font-size: 18px; font-weight: 300; margin-top: 6px;}
 .liliput1 {width: 160px; height: 160px; background: #7e61b6; padding-left:  20px;}
@@ -376,7 +379,7 @@ input::placeholder {color: #999; font-weight: 400;}
   border: 8px solid;
   border-color: transparent #fff #fff transparent;}
 
-.bubble:hover { box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.31); transition: 0.3s;}
+.bubble:hover { box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.31);  -webkit-animation: fadein .4s; /* Safari and Chrome */ -moz-animation: fadein .4s; /* Firefox */ -ms-animation: fadein .4s; /* Internet Explorer */ -o-animation: fadein .4s; /* Opera */ animation: fadein .4s; }
 
 .bubble p{ font-family: 'DINmed';  color: #333b52; font-size: 16px; font-weight: 300; padding: 0 15px; padding-top: 3px; margin: 10px 0;}
 
@@ -400,10 +403,10 @@ input::placeholder {color: #999; font-weight: 400;}
 
     /* Position the tooltip */
     position: absolute;
-    z-index: 1;}
+    z-index: 1; }
 
 .tooltip:hover .tooltiptext {
-    visibility: visible;}
+    visibility: visible;  -webkit-animation: fadein .4s; /* Safari and Chrome */ -moz-animation: fadein .4s; /* Firefox */ -ms-animation: fadein .4s; /* Internet Explorer */ -o-animation: fadein .4s; /* Opera */ animation: fadein .4s; }
 
 
 
@@ -431,11 +434,11 @@ input::placeholder {color: #999; font-weight: 400;}
   border: 8px solid;
   border-color: transparent #7e61b6 #7e61b6 transparent;}
 
-.bubble2:hover { box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.31); transition: 0.3s;}
+.bubble2:hover { box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.31); }
 
-.bubble2 p{ font-family: 'DINmed';  color: #fff; font-size: 16px; font-weight: 300; padding: 0 15px; padding-top: 3px; margin: 10px 0;}
+.bubble2 p{ font-family: 'DINmed';  color: #fff; font-size: 16px; font-weight: 300; padding: 0 15px; padding-top: 3px; margin: 10px 0; -webkit-font-smoothing: antialiased;}
 
-.bubble2 h6{ font-family: 'DINreg';  color: #fff; font-size: 14px; font-weight: 300; padding: 0 15px; margin: 10px 0;}
+.bubble2 h6{ font-family: 'DINreg';  color: #fff; font-size: 14px; font-weight: 300; padding: 0 15px; margin: 10px 0; -webkit-font-smoothing: antialiased;}
 
 
 
@@ -551,10 +554,10 @@ input:checked + .slider:before {
 
 
 
-
-
-
-
+.active{
+  font-weight: bold !important;
+  transition:all 0.3s ease;
+}
 
 
 
