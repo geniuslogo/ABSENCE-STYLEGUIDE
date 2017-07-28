@@ -28,6 +28,47 @@
   animation-name: fadeInUp;
 }
 
+@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Firefox */
+@-moz-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Safari and Chrome */
+@-webkit-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Internet Explorer */
+@-ms-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Opera */
+@-o-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Fade in tabs */
+@-webkit-keyframes fadeEffect {
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
+
+@keyframes fadeEffect {
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
+
+
 
 
 
@@ -227,26 +268,26 @@ input::placeholder {color: #999; font-weight: 400;}
 .kocka {background: url(../img/src16.png) no-repeat center;  width: 100px; height: 100px; border: 1px dashed #c9d0dd; float: left; margin-top: 30px; margin-right: 20px;}
 .kocka2 {background: url(../img/src32.png) no-repeat center;  width: 100px; height: 100px; border: 1px dashed #c9d0dd; float: left; margin-top: 30px; margin-right: 20px;}
 
-.kocka:hover {background: url(../img/src16a.png) no-repeat center; transition: 0.3s; border: 1px solid #759ee5;}
-.kocka2:hover {background: url(../img/src32a.png) no-repeat center; transition: 0.3s; border: 1px solid #759ee5;}
+.kocka:hover {background: url(../img/src16a.png) no-repeat center; transition: all 0.6s ease; border: 1px solid #759ee5;}
+.kocka2:hover {background: url(../img/src32a.png) no-repeat center; transition: all 0.6s ease; border: 1px solid #759ee5;}
 
 .editMin .kocka {background: url(../img/ed16.png) no-repeat center;  width: 100px; height: 100px; border: 1px dashed #c9d0dd; float: left; margin-top: 30px; margin-right: 20px;}
 .editMin .kocka2 {background: url(../img/ed32.png) no-repeat center;  width: 100px; height: 100px; border: 1px dashed #c9d0dd; float: left; margin-top: 30px; margin-right: 20px;}
 
-.editMin .kocka:hover {background: url(../img/ed16a.png) no-repeat center; transition: 0.3s; border: 1px solid #759ee5;}
-.editMin .kocka2:hover {background: url(../img/ed32a.png) no-repeat center; transition: 0.3s; border: 1px solid #759ee5;}
+.editMin .kocka:hover {background: url(../img/ed16a.png) no-repeat center; transition: all 0.6s ease; border: 1px solid #759ee5;}
+.editMin .kocka2:hover {background: url(../img/ed32a.png) no-repeat center; transition: all 0.6s ease; border: 1px solid #759ee5;}
 
 .clrMin .kocka {background: url(../img/clr16.png) no-repeat center;  width: 100px; height: 100px; border: 1px dashed #c9d0dd; float: left; margin-top: 30px; margin-right: 20px;}
 .clrMin .kocka2 {background: url(../img/clr32.png) no-repeat center;  width: 100px; height: 100px; border: 1px dashed #c9d0dd; float: left; margin-top: 30px; margin-right: 20px;}
 
-.clrMin .kocka:hover {background: url(../img/clr16a.png) no-repeat center; transition: 0.3s; border: 1px solid #759ee5;}
-.clrMin .kocka2:hover {background: url(../img/clr32a.png) no-repeat center; transition: 0.3s; border: 1px solid #759ee5;}
+.clrMin .kocka:hover {background: url(../img/clr16a.png) no-repeat center; transition: all 0.6s ease; border: 1px solid #759ee5;}
+.clrMin .kocka2:hover {background: url(../img/clr32a.png) no-repeat center; transition: all 0.6s ease; border: 1px solid #759ee5;}
 
 .klMin .kocka {background: url(../img/cl16.png) no-repeat center;  width: 100px; height: 100px; border: 1px dashed #c9d0dd; float: left; margin-top: 30px; margin-right: 20px;}
 .klMin .kocka2 {background: url(../img/cl32.png) no-repeat center;  width: 100px; height: 100px; border: 1px dashed #c9d0dd; float: left; margin-top: 30px; margin-right: 20px;}
 
-.klMin .kocka:hover {background: url(../img/cl16a.png) no-repeat center; transition: 0.3s; border: 1px solid #759ee5;}
-.klMin .kocka2:hover {background: url(../img/cl32a.png) no-repeat center; transition: 0.3s; border: 1px solid #759ee5;}
+.klMin .kocka:hover {background: url(../img/cl16a.png) no-repeat center; transition: all 0.6s ease; border: 1px solid #759ee5;}
+.klMin .kocka2:hover {background: url(../img/cl32a.png) no-repeat center; transition: all 0.6s ease; border: 1px solid #759ee5;}
 
 
 
@@ -256,13 +297,13 @@ input::placeholder {color: #999; font-weight: 400;}
 
 
 .a1 {background: url(../img/info.png) no-repeat center; width: 134px; height: 134px; float: left; margin-right: 60px; margin-bottom: 20px;}
-.a1:hover {background: url(../img/infoh.png) no-repeat center; width: 134px; height: 134px; transition: 0.3s;}
+.a1:hover {background: url(../img/infoh.png) no-repeat center; width: 134px; height: 134px; transition: all 0.6s ease;}
 
 .a2 {background: url(../img/error.png) no-repeat center; width: 134px; height: 134px; float: left; margin-right: 60px; margin-bottom: 20px;}
-.a2:hover {background: url(../img/errorh.png) no-repeat center; width: 134px; height: 134px; transition: 0.3s;}
+.a2:hover {background: url(../img/errorh.png) no-repeat center; width: 134px; height: 134px; transition: all 0.6s ease;}
 
 .a3 {background: url(../img/logout.png) no-repeat center; width: 134px; height: 134px; float: left; margin-right: 60px; margin-bottom: 20px;}
-.a3:hover {background: url(../img/logouth.png) no-repeat center; width: 134px; height: 134px; transition: 0.3s;}
+.a3:hover {background: url(../img/logouth.png) no-repeat center; width: 134px; height: 134px; transition: all 0.6s ease;}
 
 
 /**** indications ****/
@@ -314,8 +355,8 @@ input::placeholder {color: #999; font-weight: 400;}
 .calendar-header img {margin-left: 20px; margin-top: 14px; float: left; opacity: 0.6;}
 .jaguar { margin-left:  286px; margin-top: -52px; opacity: 1;}
 
-.calendar-header img:hover {margin-left: 20px; margin-top: 14px; float: left; cursor: pointer; opacity: 1; transition: 0.3s;}
-.jaguar:hover { margin-left:  286px; margin-top: -52px; cursor: pointer; opacity: 1; transition: 0.3s;}
+.calendar-header img:hover {margin-left: 20px; margin-top: 14px; float: left; cursor: pointer; opacity: 1; transition: all 0.3s ease;}
+.jaguar:hover { margin-left:  286px; margin-top: -52px; cursor: pointer; opacity: 1; transition: all 0.3s ease;}
 
 .calendar-header {width: 340px; height: 44px; text-align: center;}
 .calendar-header img {float: left;}
@@ -339,12 +380,12 @@ input::placeholder {color: #999; font-weight: 400;}
 .calendar-footer {clear: both;}
 
 .calendar-footer {border-radius: 4px; background: #759ee5; text-align: center; margin-left: 110px; width: 114px; height: 32px; }
-.calendar-footer:hover {box-shadow: 0px 2px 8px 0px rgba(78,126,206,0.68); transition: 0.3s;}
+.calendar-footer:hover {box-shadow: 0px 2px 8px 0px rgba(78,126,206,0.68); transition: all 0.3s ease;}
 .calendar-footer:active {background: #4e7ece;}
 .calendar-footer a {font-family: 'DINreg'; font-size: 16px; color: #fff; text-decoration: none; line-height: 32px;}
 
-.calendar-days p:hover {background: #ebf0f9; cursor: pointer; border-radius: 40px; transition: 0.3s;}
-.calendar-days p:active {background: #759ee5; cursor: pointer; border-radius: 40px;  color: #fff; transition: 0.3s;}
+.calendar-days p:hover {background: #ebf0f9; cursor: pointer; border-radius: 40px; transition: all 0.3s ease;}
+.calendar-days p:active {background: #759ee5; cursor: pointer; border-radius: 40px;  color: #fff; transition: all 0.3s ease;}
 
 .razmera5 {float: left; height: 300px; width: 6px; border-right: 1px solid #4e7ece;  border-top: 1px solid #4e7ece;  border-bottom: 1px solid #4e7ece; margin-left: 370px; margin-top: -290px;}
 .razmera5 p { font-size: 12px; color: #6a758e;  font-size: 300; padding-left: 14px; padding-top: 140px; }
