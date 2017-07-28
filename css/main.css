@@ -297,13 +297,13 @@ input::placeholder {color: #999; font-weight: 400;}
 
 
 .a1 {background: url(../img/info.png) no-repeat center; width: 134px; height: 134px; float: left; margin-right: 60px; margin-bottom: 20px;}
-.a1:hover {background: url(../img/infoh.png) no-repeat center; width: 134px; height: 134px;  -webkit-animation: fadein .4s; /* Safari and Chrome */ -moz-animation: fadein .4s; /* Firefox */ -ms-animation: fadein .4s; /* Internet Explorer */ -o-animation: fadein .4s; /* Opera */ animation: fadein .4s;}
+.a1:hover {background: url(../img/infoh.png) no-repeat center; width: 134px; height: 134px; transition: all 0.6s ease;}
 
 .a2 {background: url(../img/error.png) no-repeat center; width: 134px; height: 134px; float: left; margin-right: 60px; margin-bottom: 20px;}
-.a2:hover {background: url(../img/errorh.png) no-repeat center; width: 134px; height: 134px;  -webkit-animation: fadein .4s; /* Safari and Chrome */ -moz-animation: fadein .4s; /* Firefox */ -ms-animation: fadein .4s; /* Internet Explorer */ -o-animation: fadein .4s; /* Opera */ animation: fadein .4s;}
+.a2:hover {background: url(../img/errorh.png) no-repeat center; width: 134px; height: 134px; transition: all 0.6s ease;}
 
 .a3 {background: url(../img/logout.png) no-repeat center; width: 134px; height: 134px; float: left; margin-right: 60px; margin-bottom: 20px;}
-.a3:hover {background: url(../img/logouth.png) no-repeat center; width: 134px; height: 134px;  -webkit-animation: fadein .4s; /* Safari and Chrome */ -moz-animation: fadein .4s; /* Firefox */ -ms-animation: fadein .4s; /* Internet Explorer */ -o-animation: fadein .4s; /* Opera */ animation: fadein .4s;}
+.a3:hover {background: url(../img/logouth.png) no-repeat center; width: 134px; height: 134px; transition: all 0.6s ease;}
 
 
 /**** indications ****/
